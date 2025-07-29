@@ -1,18 +1,17 @@
-import type { JSX } from "react";
-
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
 
+import Hero from "./sections/Hero";
+import NavBar from "./sections/NavBar";
+
 gsap.registerPlugin(ScrollTrigger);
 
-const App = (): JSX.Element => {
+const App = () => {
   return (
     <main>
-      <div>
-        <h1 className="text-3xl text-pink">
-          Welcome the world of GTA and GSAP!
-        </h1>
-      </div>
+      <NavBar />
+
+      <Hero />
     </main>
   );
 };
