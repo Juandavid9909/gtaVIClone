@@ -4,6 +4,7 @@ import gsap from "gsap";
 import FirstVideo from "./sections/FirstVideo";
 import Hero from "./sections/Hero";
 import Jason from "./sections/Jason";
+import Lucia from "./sections/Lucia";
 import NavBar from "./sections/NavBar";
 import SecondVideo from "./sections/SecondVideo";
 
@@ -21,6 +22,8 @@ const App = () => {
       <Jason />
 
       <SecondVideo />
+
+      <Lucia />
     </main>
   );
 };
